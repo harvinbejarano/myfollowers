@@ -1,0 +1,17 @@
+.followers-container
+{
+    display: flex;
+
+    img{
+        max-width: 100px;
+        border-radius: 50%;
+    }
+}
+
+.txt-follower
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

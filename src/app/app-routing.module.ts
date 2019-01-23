@@ -1,7 +1,10 @@
+import { FollowersListComponent } from './followers/followers-list/followers-list.component';
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'', component:FollowersListComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
